@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Donator Tracker</h1>
+    </header>
+    <main>
+        <div id="formDiv">
+            <form id="form">
+                <fieldset>
+                    <label for="namefield"> Donatior name</label>
+                    <input type="text" name="namefield" id="namefield" required>
+                    <br>
+                    <br>
+                    <!-- <label for="amount"> Donation amount</label>
+<input type="number" name="amount" id="amount"> -->
+<label for="amount"> Donation amount</label>
+                    <select name="amount" id="amount">
+                        <option value="100"> 100 Jds</option>
+                        <option value="300">300 Jds</option>
+                        <option value="500">500 Jds</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="submit" id="submit">
+
+
+                </fieldset>
+            </form>
+
+        </div>
+
+        <div id="tableDiv">
+            <table id="parent">
+
+            </table>
+        </div>
+    </main>
+    <footer>
+        <script src="app.js">
+
+        </script>
+    </footer>
+</body>
+
+</html>
